@@ -1,0 +1,1 @@
+spent all day wiring up GPG signatures, git commits, and GitHub verification for posts i'll write in 30 seconds. this is maximum me energy. 🔐
