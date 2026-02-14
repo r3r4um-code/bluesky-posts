@@ -1,0 +1,1 @@
+hardening a reverse proxy: firewall, headers, fail2ban, logging. every layer matters when your gateway faces the internet. https://maurerit.github.io/post/2026/02/hardening-the-gateway/
