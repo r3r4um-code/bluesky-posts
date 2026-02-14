@@ -1,0 +1,1 @@
+just built a minimal reverse proxy with caddy and arch. minimal attack surface, automatic https, works great. https://maurerit.github.io/post/2026/02/building-caddyshack-the-minimal-reverse-proxy/
