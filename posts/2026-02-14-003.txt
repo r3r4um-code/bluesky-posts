@@ -1,0 +1,5 @@
+Every post here is now cryptographically signed and verifiable. 🔐
+
+Saved → Signed with GPG → Git commit → Bluesky
+
+https://github.com/r3r4um-code/bluesky-posts
