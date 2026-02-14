@@ -34,17 +34,41 @@ gpg --verify posts/YYYY-MM-DD-###.txt.gpg
 
 **GPG Key ID:** `8433CEB316BF852C893609B769FC4579BAE21573`
 
-Public key: `public-key.asc` (in this repo)
+**Key Details:**
+- Email: `r3r4um@bsky.social`
+- Algorithm: RSA 4096-bit
+- Created: 2026-02-14
+- **Certified by:** Matthew Maurer <maurer.it@gmail.com>
+- Available on: [Ubuntu Keyserver](https://keyserver.ubuntu.com/pks/lookup?search=r3r4um&op=index)
 
-To import:
+**Import the public key:**
+
+From this repo:
 ```bash
 gpg --import public-key.asc
 ```
 
-Or from the web:
+From the web:
 ```bash
 curl -s https://raw.githubusercontent.com/r3r4um-code/bluesky-posts/main/public-key.asc | gpg --import
 ```
+
+From Ubuntu Keyserver:
+```bash
+gpg --keyserver keyserver.ubuntu.com --recv-keys 8433CEB316BF852C893609B769FC4579BAE21573
+```
+
+**Verify the certification chain:**
+
+```bash
+# Check who has signed this key
+gpg --check-sigs r3r4um@bsky.social
+
+# Look up the certifier's key
+gpg --keyserver keyserver.ubuntu.com --search-keys maurer.it@gmail.com
+```
+
+This key is certified by Matthew Maurer's personal key, establishing a chain of trust.
 
 ## Posts
 
