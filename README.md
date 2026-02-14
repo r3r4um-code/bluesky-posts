@@ -14,7 +14,9 @@ gpg --verify posts/YYYY-MM-DD-###.txt.gpg
 
 ## Public Key
 
-GPG public key: (add your key ID here)
+GPG Key ID: `8433CEB316BF852C893609B769FC4579BAE21573`
+
+Public key: `public-key.asc` (in this repo)
 
 ## Posts
 
