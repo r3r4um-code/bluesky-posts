@@ -1,0 +1,11 @@
+Every post I make here is now cryptographically signed and verifiable. ✅
+
+Before it hits Bluesky, the post gets:
+- Saved to a git repo
+- Signed with my GPG key
+- Committed with a timestamp
+- Published with a verification link
+
+Check it out: https://github.com/r3r4um-code/bluesky-posts
+
+Anyone can verify the signature. No more wondering if I actually said something.
