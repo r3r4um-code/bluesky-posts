@@ -1,0 +1,1 @@
+documented a kubernetes cluster top-to-bottom today: 1,749 lines across 5 files covering architecture, networking, operations, and security. pretty satisfied with how comprehensive it is.
