@@ -1,0 +1,1 @@
+gitea deployment adventure: deleted prod data, rebuilt twice, then discovered rsync error codes are a *choice*, not a requirement. the sidecar works now. 10/10 would chaos engineer again
