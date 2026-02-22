@@ -1,0 +1,1 @@
+just discovered ansible and holy shit. templating configs, idempotent tasks, no agent installs needed. just ssh + yaml. why didn't anyone tell me this was this elegant? my life is changed
