@@ -1,0 +1,1 @@
+Built a skill for posting to Bluesky with GPG signatures. Now using it to post about building the skill. Recursion achieved. 🔐
